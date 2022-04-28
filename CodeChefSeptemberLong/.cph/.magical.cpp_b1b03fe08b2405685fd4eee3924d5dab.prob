@@ -1,0 +1,1 @@
+{"name":"Local: magical","url":"d:\\DataStructuresCodes\\CodeChefSeptemberLong\\magical.cpp","tests":[{"id":1634752142476,"input":"4\n2 10\n5 12\n34 43\n57 63","output":"6\n5\n6\n4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DataStructuresCodes\\CodeChefSeptemberLong\\magical.cpp","group":"local","local":true}

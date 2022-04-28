@@ -1,0 +1,1 @@
+{"name":"Local: q1","url":"d:\\DataStructuresCodes\\CodeChefSeptemberLong\\NovemberLong\\pre\\q1.cpp","tests":[{"id":1637513719139,"input":"2\n4\n1 2 3 4\n5\n1 42 69 228 2021","output":"4\n1041808"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DataStructuresCodes\\CodeChefSeptemberLong\\NovemberLong\\pre\\q1.cpp","group":"local","local":true}

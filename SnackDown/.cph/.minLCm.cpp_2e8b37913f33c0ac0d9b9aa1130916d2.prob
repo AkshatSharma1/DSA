@@ -1,0 +1,1 @@
+{"name":"Local: minLCm","url":"d:\\DataStructuresCodes\\SnackDown\\minLCm.cpp","tests":[{"id":1634835746814,"input":"2\n4 3\n2 3","output":"8 132\n4 30"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DataStructuresCodes\\SnackDown\\minLCm.cpp","group":"local","local":true}

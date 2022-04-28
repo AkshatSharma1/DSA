@@ -1,0 +1,1 @@
+{"name":"Local: Q5","url":"d:\\DataStructuresCodes\\October Lunctime\\Q5.cpp","tests":[{"id":1635353383756,"input":"3\n3 1\n4 2\n4 3","output":"3 3\n6 4\n6 3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DataStructuresCodes\\October Lunctime\\Q5.cpp","group":"local","local":true}
