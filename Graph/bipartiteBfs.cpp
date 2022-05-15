@@ -62,7 +62,7 @@ int main() {
 	    adj[v].push_back(u); 
 	}
 
-    if(isBipartite(m, adj)){
+    if(isBipartite(n, adj)){
         cout<<"Bipartitie Graph"<<endl;
     }
     else{

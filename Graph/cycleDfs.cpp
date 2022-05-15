@@ -1,13 +1,13 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-bool checkCycle(int startingNode, int , vector<int> adj[], vector<int> visited){
+bool checkCycle(int startingNode, int parent, vector<int> adj[], vector<int> &visited){
 
     visited[startingNode] = 1;
     //check for adj and then if not visited do rec call
     for(auto it: adj[startingNode]){
         if(!visited[it]){
-            if(checkCycle(it, startingNode, visited, adj)){
+            if(checkCycle(it, startingNode, adj, visited)){
                 return true;
             }
         }
@@ -53,7 +53,7 @@ int main() {
 	    adj[v].push_back(u); 
 	}
 
-    if(isCycle(m, adj)){
+    if(isCycle(n, adj)){
         cout<<"Cycle is present"<<endl;
     }
     else{

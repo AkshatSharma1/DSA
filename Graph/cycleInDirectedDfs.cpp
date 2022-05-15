@@ -18,7 +18,7 @@ bool checkCycle(int startingNode, vector<int> adj[], vector<int> visited, vector
         }
     }
 
-    //dlete chats after chatting
+    //delete nodes after visiting
     dfsVisited[startingNode] = 0;
     return false;
 }
@@ -58,7 +58,7 @@ int main() {
 	    // adj[v].push_back(u); since it is directed graph
 	}
 
-    if(isCycle(m, adj)){
+    if(isCycle(n, adj)){
         cout<<"Cycle is present"<<endl;
     }
     else{

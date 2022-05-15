@@ -22,7 +22,7 @@ bool checkCycle(int startingNode, int V, vector<int> adj[], vector<int> visited)
                 q.push({it, node}); //prev will be the curr node
             }
 
-            //if visited and not same then cycle
+            //if visited and prev not same then cycle
             else if(prev!=it){
                 return true;
             }
@@ -65,7 +65,7 @@ int main() {
 	    adj[v].push_back(u); 
 	}
 
-    if(isCycle(m, adj)){
+    if(isCycle(n, adj)){
         cout<<"Cycle is present"<<endl;
     }
     else{

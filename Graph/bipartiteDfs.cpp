@@ -17,7 +17,7 @@ bool checkBipartite(int startingNode, vector<int> adj[], vector<int> colored){
         else if(colored[it]==colored[startingNode]){
             return false; //bcoz adj nodes have same color here
         }
-    }
+    } 
     return true;
 }
 
@@ -55,7 +55,7 @@ int main() {
 	    adj[v].push_back(u); 
 	}
 
-    if(isBipartite(m, adj)){
+    if(isBipartite(n, adj)){
         cout<<"Bipartitie Graph"<<endl;
     }
     else{
