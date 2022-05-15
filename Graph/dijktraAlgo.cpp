@@ -8,13 +8,14 @@
 using namespace std;
 
 void dijktra(int src, vector<int> &distCov, vector<pair<int,int>> adj[]){
+    //min heap
     priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>> pq;
     distCov[src] = 0;
     //dist cov to reach src = 0
     pq.push({0,src});
 
     //find the dist travelled for nodes in the prior queue
-    while(!pq.em pty()){
+    while(!pq.empty()){
         int distTrav = pq.top().first;
         int prevNode = pq.top().second;
         pq.pop();
